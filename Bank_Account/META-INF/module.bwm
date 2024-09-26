@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_ClTMgF4yEe-Zj9WWHFPFEg" targetNamespace="http://tns.tibco.com/bw/composite/Bank_Account" name="Bank_Account" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_DAq54F4yEe-Zj9WWHFPFEg" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_DAxnkF4yEe-Zj9WWHFPFEg" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_DAzcwF4yEe-Zj9WWHFPFEg" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_DA1R8F4yEe-Zj9WWHFPFEg" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_DA3uMF4yEe-Zj9WWHFPFEg" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_DA5jYF4yEe-Zj9WWHFPFEg" name="BW.CLOUD.PORT" type="XMLSchema:int" scalable="true"/>
+  <sca:property xmi:id="_DA7_oF4yEe-Zj9WWHFPFEg" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_8URd4F4yEe-Zj9WWHFPFEg" name="HostName" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:component xmi:id="_CurK8F4yEe-Zj9WWHFPFEg" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_CurK8V4yEe-Zj9WWHFPFEg" processName="bank_account.AddACC"/>
+  </sca:component>
+  <sca:component xmi:id="_amY98F-mEe-Zj9WWHFPFEg" name="ComponentActivatorProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_amY98V-mEe-Zj9WWHFPFEg" processName="bank_account.ActivatorProcess"/>
+  </sca:component>
+</sca:composite>
